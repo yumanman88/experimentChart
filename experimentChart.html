@@ -11,6 +11,7 @@
 <script src="./js/experimentChart.js"></script>
  <script>
     var oneOne={
+        titleShow:false,
         paper:'one',
         title:"文本分类",
         subTitle:"TF/IDF,SVM",
@@ -28,6 +29,7 @@
         max:100
     };
     var oneTwo={
+        titleShow:false,
         paper:'one',
         title:"文本分类",
         subTitle:"TF/IDF,SVM",
@@ -43,6 +45,7 @@
         max:100
     };
     var oneThree={
+        titleShow:false,
         paper:'one',
         title:"文本分类",
         subTitle:"TF/IDF,SVM",
@@ -58,6 +61,7 @@
         max:100
     };
     var oneFour={
+        titleShow:false,
         paper:'one',
         title:"文本分类",
         subTitle:"TF/IDF,SVM",
@@ -74,6 +78,7 @@
         max:100
     };
     var oneNewOne={
+        titleShow:false,
         paper:'one',
         title:"文本分类",
         subTitle:"TF/IDF,SVM",
@@ -91,6 +96,7 @@
         max:100
     }
     var oneNewTwo={
+        titleShow:false,
         paper:'one',
         title:"文本分类",
         subTitle:"TF/IDF,SVM",
@@ -215,19 +221,19 @@
         min:15,
         max:40
     }
-    var expChart = new experimentChart('shine','two',6);
-    expChart.registerExperiment('one',oneOne);
-    expChart.registerExperiment('one',oneTwo);
-    expChart.registerExperiment('one',oneThree);
-    expChart.registerExperiment('one',oneFour);
-    expChart.registerExperiment('oneNew',oneNewOne);
-    expChart.registerExperiment('oneNew',oneNewTwo);
-    expChart.registerExperiment('two',twoOne);
-    expChart.registerExperiment('two',twoTwo);
-    expChart.registerExperiment('two',twothree);
-    expChart.registerExperiment('two',twoFour);
-    expChart.registerExperiment('two',twoFive);
-    expChart.registerExperiment('two',twoSix);
+    var expChart = new experimentChart('shine','ThirdExp',6);
+    expChart.registerExperiment('firstExp',oneOne);
+    expChart.registerExperiment('firstExp',oneTwo);
+    expChart.registerExperiment('firstExp',oneThree);
+    expChart.registerExperiment('firstExp',oneFour);
+    expChart.registerExperiment('secondExp',oneNewOne);
+    expChart.registerExperiment('secondExp',oneNewTwo);
+    expChart.registerExperiment('ThirdExp',twoOne);
+    expChart.registerExperiment('ThirdExp',twoTwo);
+    expChart.registerExperiment('ThirdExp',twothree);
+    expChart.registerExperiment('ThirdExp',twoFour);
+    expChart.registerExperiment('ThirdExp',twoFive);
+    expChart.registerExperiment('ThirdExp',twoSix);
     expChart.init('main');
 
 </script>
